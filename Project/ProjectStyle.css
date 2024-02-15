@@ -1,0 +1,82 @@
+body{
+    margin: 0
+}
+main{
+    background: #19191B;
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+header{
+    margin-top: 2%;
+    width: 80vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header h2{
+    color: #FFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+.menu a{
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.menu{
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+}
+.contact-button{
+    background: #19191B;
+    height: 7vh;
+    width: 12vw;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    backdrop-filter: blur(1px);
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+}
+
+section h4{
+    margin: 0;
+    text-align: start;
+    width: 40vw;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 400;
+}
+.info{
+    width: 40vw;
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Lato, sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+}
+.service-button{
+    width: 15vw;
+    height: 8vh;
+    border-radius: 4px;
+    background: #5454D4;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
