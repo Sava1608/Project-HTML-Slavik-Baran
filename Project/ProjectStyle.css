@@ -3,7 +3,7 @@ body{
 }
 .first-page{
     background: #19191B;
-    height: 95vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
